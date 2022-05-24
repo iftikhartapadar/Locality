@@ -1,0 +1,45 @@
+.ua-page {
+  height: 100vh;
+  background-color: #dcfdf2;
+  color: white;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.ua-toggle {
+  background-color: #dcfdf2;
+  margin: 3% 0%;
+}
+
+.ua-title{ 
+  font-size: 50px;
+  padding: 2%;
+}
+
+.ua-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 2%;
+}
+
+.settings-container {
+  background-color: #2ecf96;
+  margin: 3% 10%;
+  padding: 2%;
+}
+
+.toggle-btn {
+  margin: 0% 2%;
+}
+
+.ua-button {
+  margin: 2% 0% 2% 2%;
+}
+
+.ua-slider {
+  margin: 1%;
+  align-items: center;
+}

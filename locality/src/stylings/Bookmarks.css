@@ -1,0 +1,51 @@
+.bm-page {
+  height: 100vh;
+  background-color: #dcfdf2;
+  color: white;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.bm-title {
+  font-size: 50px;
+  padding: 2%;
+}
+
+.bm-container {
+  background-color: #dcfdf2;
+  width: 100%;
+  padding: 2%;
+}
+
+.bookmarks-container {
+  background-color: #2ecf96;
+  margin: 3% 10%;
+  padding: 2%;
+}
+
+.bm-cards-container {
+  padding: 1% 5%;
+  display: flex;
+  justify-content: left;
+}
+
+.bm-cards-row {
+  background-color: #2ecf96;
+  flex-flow: row wrap;
+}
+
+.bm-cards {
+  color: rgb(31, 50, 13);
+  width: 18rem;
+  max-height: 30rem;
+  margin: 4% 3%;
+  border-radius: 5%;
+}
+
+.back{
+  color: #104432;
+  background-color: black;
+}
+
+.modal-share-item {
+  color: black;
+}

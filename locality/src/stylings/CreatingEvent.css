@@ -1,0 +1,47 @@
+.cevents {
+  height: 100vh;
+  background-color: #dcfdf2;
+  font-family: "Fjalla One", sans-serif;
+  color: white;
+}
+
+.ce-container {
+  background-color: #2ecf96;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  padding: 2%;
+}
+
+.ce-title {
+  font-size: 50px;
+  padding: 2%;
+}
+
+.ce-submit {
+  background-color: #104432;
+  border-color: #104432;
+  color: white;
+}
+
+.ce-submit:hover{
+  background-color: #141615;
+  border-color: #141615;
+}
+
+
+.ce-textField {
+  width: 100%;
+}
+
+.back-btn {
+  float: left;
+  margin: 3%;
+}
+
+.back-btn:hover {
+  cursor: pointer;
+}

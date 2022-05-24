@@ -1,0 +1,132 @@
+.App {
+  background-color: #dcfdf2;
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 110%;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Header CSS  */
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #2ecf96;
+  height: 13%;
+}
+
+.header-img {
+  margin-left: 3%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.header-search {
+  font-family: "Fjalla One", sans-serif;
+  width: 50%;
+  margin-top: 3%;
+  margin-left: 8%;
+  margin-bottom: 3%;
+  margin-right:2%;
+  color: black;
+}
+
+.header-add-item {
+  height: 50%;
+  width: 50%;
+  margin-left: 7%;
+  align-self: center;
+  cursor: pointer;
+  fill: #104432;
+}
+
+.header-add-item:hover {
+  fill: #141615;
+}
+
+.header-signin {
+  font-family: "Fjalla One", sans-serif;
+  align-self: center;
+  padding: 0.5%;
+  color: white;
+  background-color: #104432;
+  border-radius: 5%;
+  cursor: pointer;
+  width: 8%;
+  margin: 0% 3% 0% 2%;
+}
+
+.header-signin:hover {
+  background-color: #141615;
+  color: white;
+  text-decoration: none;
+}
+
+/* Educational Blurb */
+
+.edu-box {
+  align-self: center;
+  border-radius: 10px;
+  width: 90%;
+  margin: 2% 5%;
+  cursor: pointer;
+}
+
+.edu-header {
+  border-radius: 5%;
+  align-self: center;
+  color: white;
+  background: rgba(16, 68, 50, 0);
+  text-shadow: 3px 3px 3px black;
+  font-weight: bold;
+}
+
+.edu-content {
+  align-self: center;
+  color: white;
+  font-size: 120%;
+  width: 80%;
+  margin: 0% 10%;
+  text-shadow: 2px 2px 2px #000000;
+  font-weight: bold;
+}
+
+/* Footer CSS */
+
+.footer-container {
+  background-color: #104432;
+  color: white;
+  font-size: 15px;
+}
+
+.footer-locality {
+  margin-right: 3%;
+}
+
+.footer-logo {
+  border-radius: 5%;
+  padding: 1px;
+  width: 230px;
+}
+
+.footer-line {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-img {
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 150px;
+}

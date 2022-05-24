@@ -1,0 +1,66 @@
+.onboarding-container {
+  
+  height: 100vh;
+  background-image: url(../Assets/Background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.onboarding-margin {
+  position: absolute;
+  width: 60%;
+  margin: 3%;
+}
+
+/* Locality Logo  */
+.onboarding-img {
+  align-self: center;
+  width: 50%;
+}
+
+.onboarding-content {
+  display: flex;
+  justify-content: center;
+}
+
+/* "Enter your zip code" Box  */
+
+.onboarding-text-input {
+  font-family: "Fjalla One", sans-serif;
+  width: 50%;
+  padding: 1%;
+  border-color: white;
+}
+
+/* Find Events! Button */
+.onboarding-submit {
+  font-family: "Fjalla One", sans-serif;
+  background-color: #104432;
+  color: white;
+  padding: 1%;
+  margin-left: 2%;
+  border-radius: 5%;
+}
+
+.onboarding-submit:hover {
+  background-color: #141615;
+  color: white;
+  text-decoration: none;
+}
+
+/* Button to Sign In Page */
+.onboarding-signin {
+  font-family: "Fjalla One", sans-serif;
+  background-color: #104432;
+  color: white;
+  padding: 1%;
+  align-self: center;
+  border-radius: 3%;
+}
+
+.onboarding-signin:hover {
+  background-color: #141615;
+  color: white;
+  text-decoration: none;
+}

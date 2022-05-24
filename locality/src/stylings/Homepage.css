@@ -1,0 +1,77 @@
+.homepage {
+  height: 100vh;
+}
+
+.homepage-cards-container {
+  padding: 1% 5%;
+  display: flex;
+  justify-content: left;
+  background-color: #dcfdf2;
+}
+
+.homepage-cards-row {
+  background-color: #dcfdf2;
+  flex-flow: row wrap;
+}
+
+.homepage-cards {
+  font-family: "Fjalla One", sans-serif;
+  color:rgb(31, 50, 13);
+  width: 18rem;
+  max-height: 30rem;
+  margin: 4% 3%;
+  border-radius: 5%;
+}
+
+.homepage-img {
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+
+.filter-title{
+  color: #104432;
+  margin: 1%
+}
+
+/* Modal CSS */
+.modal-header,
+.modal-footer {
+  background-color: #2ecf96;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.modal-body {
+  background-color: #dcfdf2;
+  color: rgb(0, 0, 0);
+  font-family: "Fjalla One", sans-serif;
+}
+
+.modal-image {
+  width: 100%;
+  border-radius: 5%;
+  padding: 1%;
+}
+
+.modal-title {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 50px;
+}
+
+.modal-share-item,
+.modal-event-item {
+  font-family: "Fjalla One", sans-serif;
+  cursor: pointer;
+  margin: 5% 3%;
+  float: right;
+}
+
+.modal-desc {
+  font-size: 125%;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.google-map {
+  float: right;
+  margin: 10% 3%;
+}
